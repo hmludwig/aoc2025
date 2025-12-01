@@ -5,7 +5,7 @@ My solutions for [Advent of Code 2025](https://adventofcode.com/2025/).
 
 | Day | Part 1 | Part 2 | Source |
 |:---:|:------:|:------:|:------:|
-|  [01](https://adventofcode.com/2025/day/1) |  |  | [:page_facing_up:](https://github.com/hmludwig/aoc2025/blob/main/src/day01.py)
+|  [01](https://adventofcode.com/2025/day/1) | :star: | :star: | [:page_facing_up:](https://github.com/hmludwig/aoc2025/blob/main/src/day01.py)
 |  [02](https://adventofcode.com/2025/day/2) |  |  | [:page_facing_up:](https://github.com/hmludwig/aoc2025/blob/main/src/day02.py)
 |  [03](https://adventofcode.com/2025/day/3) |  |  | [:page_facing_up:](https://github.com/hmludwig/aoc2025/blob/main/src/day03.py)
 |  [04](https://adventofcode.com/2025/day/4) |  |  | [:page_facing_up:](https://github.com/hmludwig/aoc2025/blob/main/src/day04.py)
