@@ -21,16 +21,18 @@ def main():
     for element in data:
         a, b = map(int, element.split("-"))
         for x in range(a, b + 1):
-            if len(str(x)) % 2 == 0:
-                width = len(str(x)) // 2
-                if str(x)[:width] == str(x)[width:]:
+            s = str(x)
+            length = len(s)
+
+            if length % 2 == 0:
+                width = length // 2
+                if s[:width] == s[width:]:
                     part1 += x
 
-            width = len(str(x)) // 2
-            for w in range(1, width + 1):
-                if len(str(x)) % w == 0:
-                    chunks = [str(x)[i : i + w] for i in range(0, len(str(x)), w)]
-                    if len(set(chunks)) == 1:
+            for w in range(1, length // 2 + 1):
+                if length % w == 0:
+                    chunk = s[:w]
+                    if all(s[i : i + w] == chunk for i in range(w, length, w)):
                         part2 += x
                         break
 
